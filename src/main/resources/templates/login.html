@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="shortcuticon"href="../resources/favicon.ico"th:href="@{/static/favicon.ico}">
+</head>
+<body>
+    <form action="/login" method="post">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>密  码：</td>
+                <td>
+                    <input type="password" name="psw">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit"value="提交">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
